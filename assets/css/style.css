@@ -247,10 +247,10 @@ body{
 }
 .Effective-sec-item-title h4,
 .Effective-sec-item-title span{
-    font-size: 19px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 22px;
     color: var(--primary--color);
-    padding: 14px 70px 11px 0;
+    padding: 20px 20px 20px 8px;
     letter-spacing: 0.5px;
 }
 .Effective-sec-item-title p{
@@ -507,7 +507,7 @@ body{
 .Pricing-box-con{
     background: #16256e;
     border-radius: 15px;
-    padding: 52px 45px 60px 45px;
+    padding: 50px 20px 40px 20px;
     border: 1px solid transparent;
 }
 .Pricing-box-con:hover{
@@ -804,7 +804,7 @@ body{
     margin-bottom: 16px;
 }
 .about-page-banner-title p{
-    padding: 0 250px;
+    padding: 0 200px;
     color: #c1cbf3;
 }
 .about-page-Effective-con{
@@ -900,6 +900,7 @@ body{
 .service-Effective-con-item{
     margin-bottom: 30px;
 }
+
 /*service-page-css*/
 /*tabs-section*/
 #tsum-tabs h1 {
@@ -1032,6 +1033,7 @@ body{
   }
   .contact-box-card .Effective-sec-item .Effective-sec-item-title p{
       line-height: 30px;
+      font-size: 12px;
   }
   /*contact-page-css*/
 /*team-page-css*/
@@ -1375,6 +1377,13 @@ body{
 .team-social-icon a i:hover{
     border-color:var(--accent);
     background: transparent;
+}
+
+.col-lg-4-box {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333;
+    max-width: 226px !important;
 }
 
 
