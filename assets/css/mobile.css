@@ -405,6 +405,12 @@
     padding: 14px 0;
     margin:0 8px;
 }
+.Effective-sec-item-box{
+    padding-left: 0px;
+}
+.Effective-link-box{
+    padding-left: 150px
+}
 #tsum-tabs [id^="tab"]:checked + label::after{
     transform: translate(-15px, 65px);
 }

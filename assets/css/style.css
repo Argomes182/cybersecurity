@@ -207,13 +207,20 @@ body{
 }
 .Effective-sec-item{
     background: #16256e;
-    padding:45px 30px 32px 30px;
+    padding:25px 15px 25px 15px;
     border-radius: 15px;
     border: 1px solid transparent;
+}
+.Effective-sec-item-box{
+    padding-left: 100px;
 }
 .Effective-sec-item img{
     transition: transform 0.5s  ease-in-out;
 }
+.Effective-link-box{
+    padding-left: 450px
+}
+
 .Cyber-Security-left-card-con img{
     transition: transform 0.5s  ease-in-out;
 }
@@ -1379,12 +1386,6 @@ body{
     background: transparent;
 }
 
-.col-lg-4-box {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333;
-    max-width: 226px !important;
-}
 
 
 
